@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h1 {
+    background-color: blue;
+    height: 5rem;   
+}
+
+/*a{
+    background-color: slategray;
+    height: 10rem;
+    width: 10rem;  for inline elements height and width doesnt apply
+    margin: 2rem;  margin applies only to teh left and right and padding doesnt apply well also
+    until now  we are not gonna use height and width but now we can using display :
+
+a {
+    display: block;
+    background-color: slategray;
+    height: 3rem;
+    text-align: end;
+    padding-top: 1rem;
+}*/
+
+a{
+    display: inline-block;  /*fits between block and inline and it applies margin and height and width to all sides*/
+    background-color: slategray;
+    height: 10rem;
+    width: 20rem;
+    margin: 5rem;
+    padding:5rem;
+}

@@ -1,0 +1,17 @@
+html {
+    font-size: 62.5%;
+}
+
+button {
+    margin: 20rem;
+    padding: 2rem 4rem;
+    background: none; /*background color not works here*/
+    border: 0.3rem solid blue;
+    color: white;
+    font-size: 2.4rem;
+    border-radius: 1rem;  /*50% will gonna be full round
+    border-radius: 50%;
+    height : 20rem;
+    width : 20rem;*/ 
+    background-color: blue;
+}

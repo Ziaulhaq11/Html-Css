@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html,body {
+    height: 200%;  
+}
+
+.container {
+    background-color: aqua;  /*now because there is nothing inside div after adding html height tag above*/
+    width: 80%;
+    height: 80%;
+    margin: auto; /*it will set it to centre if your width is less than 100%*/
+    position: relative;
+}
+
+.box1,.box2,.box3 {
+    width: 20%;
+    height: 20%;
+    background-color: blueviolet;
+}
+
+.box2 {
+    background-color: coral;
+    /*transform: translateX(-50%);*/
+    position: relative;
+    left: 20rem;
+    
+}
+
+/*.box3 {
+    background-color: darkgreen;
+    left: 0rem;  its static thats why positioning are not working
+    position: fixed; it sets the content fixed when we scroll the page then also it doesnt move
+    top: 0rem;
+    width: 100%;
+}*/
+
+.box3 {
+    background-color: darkgreen;
+    position: sticky;
+    top: 0;  /*when it reaches top 0% then it switch from relative to fixed weZ*/
+}
+
+/*after setting position to absolute it doesnt relate with the box of div so to do that we can use position as relative and css look 
+for position of the parent first if parent was set to relative and child was set to absolute then it takes relative*/
+.box1 {
+    position: absolute; /*by default it was set to static after setting to absolute it doesnt care about container it sets where we set*/
+    top: 50%; /*see here it is for the centre but it doesnt looks in centre because the starting point is centre
+    left: 1rem;*/
+    left: 50%;
+    transform: translate(-50%, -50%);  /*x and y*/
+}

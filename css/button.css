@@ -3,7 +3,7 @@ html {
 }
 
 button {
-    margin: 20rem;
+    margin: .1rem; /*it is applying margin to the button not the text*/
     padding: 2rem 4rem;
     background: none; /*background color not works here*/
     border: 0.3rem solid blue;

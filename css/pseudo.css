@@ -1,0 +1,39 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+button {  /*we can do this also button:nthchild(1) if we have multiple buttons*/
+    padding: 2rem 4rem;
+}
+
+button:hover {  
+    padding: 2rem 6rem;
+    background-color: rgb(116, 112, 112);
+    cursor: pointer;  /*you can put in the button selector itself*/
+}
+
+button:focus {
+    background-color: khaki;  /*it will apply when click*/
+}
+
+input:focus {
+    background-color: lightseagreen;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h1::after {
+    content: 'me';
+}
+
+h1::before {
+    content: 'me';
+}

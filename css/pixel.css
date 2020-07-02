@@ -1,0 +1,26 @@
+/*html {
+    font-size: 16px; we can modify it
+    font-size: 62.5%  by putting this size we can type 1rem for 10pixels etc
+}*/
+
+/*.text-section {
+    font-size: 1.5em;
+    /*16*1.5
+}
+.text-section div {
+    font-size:  20px;  /*Pixels are not good for responsive design and if you change your font in chrome settings it wont
+                        affect the size of our page font so its not flexible*/
+    /*16*1.5*1.5
+    margin: 2em;
+    /*16*1.5*1.5*2  for example if we put font-size: in pixels then the inheritance breaks now margin will be 2em = 2*20 = 40
+}*/
+
+.text-section {
+    font-size: 1.5rem;
+}
+
+.text-section div {
+    font-size: 1.5rem;
+}
+
+

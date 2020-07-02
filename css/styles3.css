@@ -1,0 +1,14 @@
+/* if we give two styles for h1 tag then the last style tag will apply*/
+/* if for the same h1 tag we give style1 and again we again specifically given the style2 using class then class style
+will be applied eventhough h1tag is last*/
+/*id is more than class specificity and this is important than element specificity*/
+/*inline style is more priority than even id */
+/*!important */
+
+h1.active {
+    color: blue;
+} /*this will get the priority */
+
+.active{
+    color: blueviolet;
+}

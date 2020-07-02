@@ -1,0 +1,25 @@
+h1 {
+    color: rebeccapurple;  /*here there are two h1 tags so it applies to both*/
+}
+
+* {
+    font-size: 20px;  /*this is a selector which applies to the entire page*/
+}
+
+.list + ul {
+    list-style: none;   /*+ selector is used to determine the below here it is for ul which is below list*/
+}
+
+ul>li {
+    color: saddlebrown;  /* so what it does is it will only apply on list which are childrens to ul we can do the 
+                            same by giving the class to the element and in css instead of ul we can write class name*/
+}
+
+ul li a {
+    color: seagreen; /*Here li is used for specific 'a' attribute if only one 'a' element is used you dont need to
+                        add li*/
+}
+
+.links li:nth-child(1){
+    color: violet;  /*no space have to give after li*/
+}

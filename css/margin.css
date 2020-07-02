@@ -1,0 +1,11 @@
+button {
+    background-color: cadetblue;
+    padding: 20px 10px;  /*margin is outside the  element and padding is inside the element*/
+}
+
+h1 {
+    margin: 0px;
+    padding: 20px;
+    background-color: blueviolet;
+}
+

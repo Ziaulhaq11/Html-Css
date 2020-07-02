@@ -1,0 +1,19 @@
+/*Box model is nothing but the element,padding,border,margin all together called box-model*/
+* {
+    margin: 0px;  /*by default margin is applied to the elements*/
+    padding: 0px;  /*but still we need to scroll*/
+    box-sizing: border-box; /* now all of our padding fit into the page default it set to content-box*/
+}
+
+div {
+    background-color: cornflowerblue;
+    color: white; 
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    border: 3px solid black;
+    /*when we put width 100% and padding to 20px then the screen fill up and we need to scroll right 
+    width: 300px;
+    padding: 20px 20px;
+    */
+}

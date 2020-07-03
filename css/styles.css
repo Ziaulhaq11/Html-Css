@@ -7,19 +7,26 @@ h1 {
 }
 
 .list + ul {
-    list-style: none;   /*+ selector is used to determine the below here it is for ul which is below list*/
+    list-style: none;   /* Adjacent sibling selector: Select the adjacent or immediately following elements
+                        now this occurs not to the list class elements but to the adjacent lists*/
 }
 
 ul>li {
-    color: saddlebrown;  /* so what it does is it will only apply on list which are childrens to ul we can do the 
+    color: saddlebrown;  /* Child Selector  it doesnt include if inside div p tags are there so it applies to them because those are children but there is a seciton tag in which p tag is there even though p tag is now descendant not child so style wil not apply
+                            The child selector selects all elements that are the children of a specified element.
+
+                            The following example selects all <p> elements that are children of a <div> element:
+                             so what it does is it will only apply on list which are childrens to ul we can do the 
                             same by giving the class to the element and in css instead of ul we can write class name*/
 }
 
 ul li a {
-    color: seagreen; /*Here li is used for specific 'a' attribute if only one 'a' element is used you dont need to
+    color: seagreen; /* Descendant selector :  Here it applies to all of the elements inside it.
+                         Here li is used for specific 'a' attribute if only one 'a' element is used you dont need to
                         add li*/
 }
 
+/*ul~li    general sibling selector it is similar to + difference is that applies immediate siblings and it applies to all siblings that are having the elements */
 .links li:nth-child(1){
     color: violet;  /*no space have to give after li*/
 }

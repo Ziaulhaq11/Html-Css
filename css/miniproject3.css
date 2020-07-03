@@ -1,0 +1,108 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+.clear{
+    clear: both;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 4rem;
+    padding: 5rem 0rem;
+}
+/*we cant change color of anchor tags with li*/
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 2.4rem;
+}
+
+h3 {
+    font-size: 2.8rem;
+}
+
+button {
+    font-size: 1.8rem;
+}
+
+nav {
+    background-color: cadetblue;
+    color: white;  /*it is not changing the anker tags*/
+    padding: 3rem;
+}
+nav  h1{
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    padding: 1.5rem;
+}
+
+nav li {
+    float: left;
+    margin: 0rem 4rem;
+}
+
+.hero {
+    background-image: url(/baking-cheese-cooking-crust-315755.jpg);
+    height: 70rem;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-size: 5rem;
+    padding-top: 15rem;
+    text-shadow: 3px 3px 3px black; /*right or leftshadow  top or bottom shadow  sizeof the  shadow*/
+}
+
+.hero button {
+    margin-top: 4rem;
+    padding: 2rem 6rem;
+    background: orange;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 0.5em;
+}
+
+.hero button:hover{
+    background-color: rgba(0, 0, 0, 0.801);
+}
+
+.form {
+    text-align: center;
+}
+
+form {
+
+}
+form input,form label, form textarea {
+    display: block;  /*now text is in centre but input  forms are not*/
+    font-size: 2.4rem;
+}
+form input,form textarea {
+    margin: 2rem auto;
+    width: 30%;
+}
+form button {
+    margin-bottom: 10rem;
+    padding: 2rem 6rem;
+    background: rgb(3, 82, 85);
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 30%;
+}

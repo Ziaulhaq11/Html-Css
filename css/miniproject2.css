@@ -1,0 +1,17 @@
+* {
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html,body {
+    height: 100%;
+}  /*when we set this then we can set height for teh box1*/
+
+.box1 {
+    height: 50%; /*i am setting height to 100% then also the height doesnt change because it takes the height of the content*/
+}

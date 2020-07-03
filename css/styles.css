@@ -28,5 +28,5 @@ ul li a {
 
 /*ul~li    general sibling selector it is similar to + difference is that applies immediate siblings and it applies to all siblings that are having the elements */
 .links li:nth-child(1){
-    color: violet;  /*no space have to give after li*/
+    color: rgb(14, 12, 14);  /*no space have to give after li*/
 }
